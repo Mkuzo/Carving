@@ -96,15 +96,15 @@
 .card-wrapper{
     width: 90%;
     height: auto;
-    margin: auto;
     display: flex;
-    justify-content: center;
+    margin: auto;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    background-color: red;
 }
 .card,.cart{
-    width: 400px;
+    width: 475px;
     height: 450px;
     background-color: brown;
     border-radius: 10px;
@@ -146,6 +146,7 @@
     border: none;
     color:white;
     border-radius: 5px;
+    cursor: pointer;
 }
 .cart-container{
     width: 90%;
