@@ -103,7 +103,7 @@
     flex-wrap: wrap;
 }
 .card,.cart{
-    width: 475px;
+    width: 460px;
     height: 450px;
     background-color: brown;
     border-radius: 10px;
