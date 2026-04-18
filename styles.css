@@ -101,7 +101,6 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    background-color: red;
 }
 .card,.cart{
     width: 475px;
