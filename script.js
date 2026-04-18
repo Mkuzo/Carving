@@ -78,7 +78,7 @@ const services = [{
 },{
     id: 2,
     name: "Elephant",
-    img: "carving2.jpg",
+    img: "Carving2.jpg",
     price: 300
 },{
     id: 3,
