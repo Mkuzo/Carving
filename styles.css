@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navigation-wrapper{
+    width: 100%;
+    height: auto;
+}
+.navigation{
+    width: 100%;
+    height: auto;
+}
+.navigation img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+.image-holder{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+.nav{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.about-cover{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-wrapper{
+    width: 60%;
+    height: auto;
+    font-size: 1.2rem;
+}
+.about-wrapper p{
+    margin-top: 20px;
+    color: white;
+}
+.about-wrapper h1{
+    color: rgb(238, 15, 15);
+
+}
+.about-wrapper p,h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.service-wrapper h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px 0;
+}
+.service-wrapper span{
+    color: red;
+}
+.card-wrapper{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card,.cart{
+    width: 400px;
+    height: 450px;
+    background-color: brown;
+    border-radius: 10px;
+    padding: 10px;
+}
+.image{
+    width:100%;
+    height: 60%;
+}
+.text{
+    width: 100%;
+    height: 40%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.text h1{
+    color: white;
+}
+.text p{
+    color: white;
+    text-align: center;
+}
+.text p span{
+    color: rgb(198, 198, 200);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.button button{
+    background-color: orangered;
+    padding: 10px 20px;
+    border: none;
+    color:white;
+    border-radius: 5px;
+}
+.cart-container{
+    width: 90%;
+    height: auto;
+}
+.cart-wrapper h1{
+    text-align: center;
+    padding: 10px 0;
+}
+.cart-container{
+    margin: auto;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cart{
+    padding: 10px;
+}
+.image-cart{
+    width: 100%;
+    height: 60%;
+}
+.cart-price-name,.cart-button{
+    width: 100%;
+    height: 20%;
+}
+.image-cart img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.cart-price-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cart-price-name h2{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8rem;
+    color:white;
+}
+.cart-price-name p{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color:white;
+}
+.cart-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-button button{
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: orangered;
+    border:none;
+    cursor: pointer;
+}
+.cart-button p{
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 10px;
+}
+.total-conatiner{
+    width:100%;
+    height:auto;
+}
+.total{
+    width:90%;
+    height:50px;
+    background-color: skyblue;
+    color:orangered;
+    margin:20px auto;
+    border-radius: 10px;
+    padding: 10px 0  ;
+}
+.total p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.smaller-device-nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    display: none;
+}
+.logo{
+    width: auto;
+    height: auto;
+    color: white;
+}
+.bar{
+    width: auto;
+    height: auto;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.fa-bars{
+    font-size: 1.5rem;
+    color: white;
+}
+.verticle{
+    width: 400px;
+    height: 415px;
+    background-color: green;
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    border-radius: 10px;
+}
+.hide-verticle{
+  display: none;   
+}
+.verticle ul{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.verticle ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+.verticle ul li{
+    list-style: none;
+    margin: 15px 0;
+    width: 100%;
+    background-color: firebrick;
+    padding: 20px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 800px){
+    .smaller-device-nav{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+    }
+    .nav{
+            width: 90%;
+            height: 80px;
+            margin: auto;
+            display: none;
+    }
+    .card,.cart{
+        width: 100%;
+    }
+    .about-wrapper h1{
+        font-size: 0.8rem;
+    }
+    .about-wrapper p{
+        font-size: 0.6rem;
+    }
+    .verticle{
+        width: 90%;
+        top: 80%;
+    }
+}
